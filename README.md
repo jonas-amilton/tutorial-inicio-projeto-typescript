@@ -18,7 +18,13 @@ npm init -y
 npm install -g typescript
 ``
 
-4º Modifica arquivo: tsconfig.json
+4º Criar o arquivo tsconfig.json
+
+``
+tsc --init
+``
+
+5º Modifica arquivo: tsconfig.json
 
 Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir
 
@@ -48,7 +54,7 @@ Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir
   "exclude":["node_modules"]
  ````
 
-5º Adiciona os seguintes scripts no package.json:
+6º Adiciona os seguintes scripts no package.json:
 
 ````
 "dev": "tsnd | ts-node-dev --respawn --transpile-only --cls ./src",
@@ -56,7 +62,7 @@ Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir
 "start": "node ./build"
 ````
 
-6º Após isso você pode criar uma pasta src na raíz do projeto e incluir uma pasta index.ts
+7º Após isso você pode criar uma pasta src na raíz do projeto e incluir uma pasta index.ts
 
 ````
 // Vamos colocar um console.log no arquivo index.ts para testar se deu certo
