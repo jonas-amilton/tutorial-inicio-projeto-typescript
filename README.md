@@ -1,3 +1,5 @@
+# Tutorial de como iniciar um projeto em TypeScript
+
 1º Comando no terminal: "npm init -y" - Inicializa o repositório com o npm
 
 2º Comando no terminal: "npm i -D typescript @types/node ts-node-dev" - Adiciona as dependências iniciais do projeto
