@@ -47,3 +47,7 @@ Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir
 "build": "tsc",
 "start": "node ./build"
 ````
+
+6º Após isso você pode criar uma pasta src na raíz do projeto e incluir uma pasta index.ts
+
+- Para executar basta usar o comando npm run dev no terminal
