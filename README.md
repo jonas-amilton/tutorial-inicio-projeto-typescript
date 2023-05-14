@@ -15,9 +15,30 @@ npm install -g typescript
 Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir
 
 - Alterar versão do target para a que seu projeto utilizará
+````
+// exemplo:
+
+"target": "es2022"
+````
 - Descomentar e adicionar o rootDir como (geralmente) "./src"
+````
+// exemplo:
+
+"rootDir": "./src"
+````
 - Descomentar e adicionar o outDir como (geralmente) "./build"
-- Adicionar antes do último fechamento de chaves ("}") o include e exclude, que é o que será respectivamente incluído e excluído da compilação dos arquivos
+````
+// exemplo:
+
+"outDir": "./build"
+````
+- Adicionar antes do último fechamento de chaves o include e exclude, que é o que será respectivamente incluído e excluído da compilação dos arquivos
+ ````
+ // exemplo:
+ 
+  "include":["./src/**/*.ts"],
+  "exclude":["node_modules"]
+ ````
 
 5º Adiciona os seguintes scripts no package.json:
 
