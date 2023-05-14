@@ -50,4 +50,16 @@ Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir
 
 6º Após isso você pode criar uma pasta src na raíz do projeto e incluir uma pasta index.ts
 
+````
+// Vamos colocar um console.log no arquivo index.ts para testar se deu certo!
+
+console.log("ola mundo");
+````
+
 - Para executar basta usar o comando npm run dev no terminal
+
+````
+// Mensagem esperada no terminal:
+
+// ola mundo
+````
