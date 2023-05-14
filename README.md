@@ -12,12 +12,12 @@ npm install -g typescript
 
 4º Modifica arquivo: tsconfig.json
 
-Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir;
+Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir
 
-- Alterar versão do target para a que seu projeto utilizará;
-- Descomentar e adicionar o rootDir como (geralmente) "./src";
-- Descomentar e adicionar o outDir como (geralmente) "./build";
-- Adicionar antes do último fechamento de chaves ("}") o include e exclude, que é o que será respectivamente incluído e excluído da compilação dos arquivos;
+- Alterar versão do target para a que seu projeto utilizará
+- Descomentar e adicionar o rootDir como (geralmente) "./src"
+- Descomentar e adicionar o outDir como (geralmente) "./build"
+- Adicionar antes do último fechamento de chaves ("}") o include e exclude, que é o que será respectivamente incluído e excluído da compilação dos arquivos
 
 5º Adiciona os seguintes scripts no package.json:
 
