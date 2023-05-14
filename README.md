@@ -2,12 +2,14 @@
 
 1º Comando no terminal:
 - Inicializa o repositório com o npm
+
 ``
 npm init -y
 ``
 
 2º Comando no terminal:
 - Adiciona as dependências iniciais do projeto
+
 ``npm i -D typescript @types/node ts-node-dev``
 
 3º Certifique-se de ter o TypeScript instalado globalmente no seu sistema. Para instalar globalmente, você pode executar o seguinte comando no terminal:
