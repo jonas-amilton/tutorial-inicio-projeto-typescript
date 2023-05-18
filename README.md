@@ -57,7 +57,7 @@ Crie o arquivo tsconfig.json na raiz do projeto se ele ainda não existir
 6º Adiciona os seguintes scripts no package.json:
 
 ````
-"dev": "tsnd | ts-node-dev --respawn --transpile-only --cls ./src",
+"dev": "ts-node-dev --respawn --transpile-only --cls ./src",
 "build": "tsc",
 "start": "node ./build"
 ````
